@@ -1,0 +1,29 @@
+{
+  "root": true,
+  "project": {
+    "name": "Next.js Headless Example"
+  },
+  "api": {
+    "projectId": "51jzb6zj",
+    "dataset": "development"
+  },
+  "plugins": [
+    "@sanity/base",
+    "@sanity/default-layout",
+    "@sanity/default-login",
+    "@sanity/desk-tool"
+  ],
+  "env": {
+    "development": {
+      "plugins": [
+        "@sanity/vision"
+      ]
+    }
+  },
+  "parts": [
+    {
+      "name": "part:@sanity/base/schema",
+      "path": "./schemas/schema"
+    }
+  ]
+}
