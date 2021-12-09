@@ -31,6 +31,7 @@
 		"next-linaria": "^1.0.0-beta",
 		"postcss": "^8.4.4",
 		"prettier": "^2.5.1",
+		"sanity-codegen": "^0.9.8",
 		"tailwindcss": "^3.0.0",
 		"typescript": "4.5.2"
 	}
