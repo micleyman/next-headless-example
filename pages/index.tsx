@@ -1,6 +1,5 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
 
 import { css } from '@linaria/core'
 
@@ -10,7 +9,7 @@ const content = css`
 
 const Home: NextPage = () => {
 	return (
-		<div className={styles.container}>
+		<div className="bg-blue-500">
 			<Head>
 				<title>Homepage example</title>
 				<link rel="icon" href="/favicon.ico" />
